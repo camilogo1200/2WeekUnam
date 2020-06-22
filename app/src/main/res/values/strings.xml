@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Week2_Android_MOOC</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion_de_contacto">Descripción de Contacto</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="confirmar_datos">Confirmar Datos</string>
+    <string name="fecha_nacimiento">Fecha Nacimiento :</string>
+    <string name="tel">Tel.</string>
+    <string name="tv_email">Email:</string>
+    <string name="tv_descripcion_title">Descripción:</string>
+    <string name="editar_datos_btn">Editar Datos</string>
+    <string name="user_intent_payload">USER_INTENT_PAYLOAD</string>
+</resources>

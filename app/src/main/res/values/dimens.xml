@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="MainView_Constraint_Padding">16dp</dimen>
+    <dimen name="padding_nombrecompleto_layout">10dp</dimen>
+    <dimen name="padding_telefono_layout">10dp</dimen>
+    <dimen name="padding_email_layout">10dp</dimen>
+    <dimen name="padding_descripcion_layout">10dp</dimen>
+    <dimen name="confirmation_constraint_padding">16dp</dimen>
+    <dimen name="title_text_size">30sp</dimen>
+    <dimen name="title_margin_top">16dp</dimen>
+    <dimen name="name_margin_top">16dp</dimen>
+    <dimen name="name_padding">8dp</dimen>
+    <dimen name="name_text_size">20sp</dimen>
+    <dimen name="padding_fecha_nacimiento">8dp</dimen>
+    <dimen name="fechanacimiento_text_size">18sp</dimen>
+    <dimen name="fecha_nacimiento_text_size">18sp</dimen>
+    <dimen name="padding_tel_title">8dp</dimen>
+    <dimen name="tel_title_text_size">18sp</dimen>
+    <dimen name="padding_telefono">8dp</dimen>
+    <dimen name="telefono_text_size">18sp</dimen>
+    <dimen name="email_title_padding">8dp</dimen>
+    <dimen name="email_title_text_size">18sp</dimen>
+    <dimen name="padding_email">8dp</dimen>
+    <dimen name="email_text_size">18sp</dimen>
+    <dimen name="padding_description_title">8dp</dimen>
+    <dimen name="description_title_text_size">18sp</dimen>
+    <dimen name="padding_descripcion">8dp</dimen>
+    <dimen name="descripcion_text_size">18sp</dimen>
+</resources>

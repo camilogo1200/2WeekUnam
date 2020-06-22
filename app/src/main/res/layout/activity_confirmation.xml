@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/confirmation_constraint_padding"
+    tools:context=".ConfirmationActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:text="@string/confirmar_datos"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/name_margin_top"
+        android:gravity="start"
+        android:padding="@dimen/name_padding"
+        android:textSize="@dimen/name_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        tools:text="Lorena Hernández López" />
+
+    <TextView
+        android:id="@+id/tv_fecha_nacimiento_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="@dimen/padding_fecha_nacimiento"
+        android:text="@string/fecha_nacimiento"
+        android:textSize="@dimen/fechanacimiento_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_fecha_nacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="@dimen/padding_fecha_nacimiento"
+        android:textSize="@dimen/fecha_nacimiento_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_fecha_nacimiento_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        tools:text="12/12/1987" />
+
+    <TextView
+        android:id="@+id/tv_tel_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="@dimen/padding_tel_title"
+        android:text="@string/tel"
+        android:textSize="@dimen/tel_title_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_fecha_nacimiento_title" />
+
+    <TextView
+        android:id="@+id/tv_telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="@dimen/padding_telefono"
+        android:textSize="@dimen/telefono_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_tel_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_fecha_nacimiento_title"
+        tools:text="5555333" />
+
+
+    <TextView
+        android:id="@+id/tv_email_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="@dimen/email_title_padding"
+        android:text="@string/tv_email"
+        android:textSize="@dimen/email_title_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_tel_title" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="@dimen/padding_email"
+        android:textSize="@dimen/email_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_email_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_tel_title"
+        tools:text="lorena@gmail.com" />
+
+    <TextView
+        android:id="@+id/tv_descripcion_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="@dimen/padding_description_title"
+        android:text="@string/tv_descripcion_title"
+        android:textSize="@dimen/description_title_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_email_title" />
+
+    <TextView
+        android:id="@+id/tv_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_descripcion"
+        android:textSize="@dimen/descripcion_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/tv_descripcion_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_email"
+        tools:text="Conocí a Lorena ..." />
+
+    <Button
+        android:id="@+id/btn_editar_datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editar_datos_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_descripcion"
+        app:layout_constraintVertical_bias="0.15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
